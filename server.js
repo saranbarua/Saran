@@ -3,6 +3,7 @@ const express =require('express');
 const app =express();
 require('dotenv').config();
 
+//data 
 var bodyParsar= require('body-parser');
 app.use(bodyParsar.json());
 app.use(express.json());
